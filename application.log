@@ -1,0 +1,166 @@
+799  [main] INFO  com.example.Pr23.Pr23Application
+                – Starting Pr23Application using Java 15.0.2 on DESKTOP-K7IN7AN with PID 2192 (C:\Users\killi\IdeaProjects\Pr23\build\classes\java\main started by killi in C:\Users\killi\IdeaProjects\Pr23)
+807  [main] INFO  com.example.Pr23.Pr23Application
+                – No active profile set, falling back to default profiles: default
+1984 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2080 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 85 ms. Found 3 JPA repository interfaces.
+2981 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+2990 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2990 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2991 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.45]
+3144 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3144 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2261 ms
+3343 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3560 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+3622 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3685 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.30.Final
+3865 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+4044 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+5375 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5386 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5555 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6404 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                – Will secure Ant [pattern='/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79c2bc34, org.springframework.security.web.context.SecurityContextPersistenceFilter@7aaf6bfd, org.springframework.security.web.header.HeaderWriterFilter@46d18a33, org.springframework.security.web.authentication.logout.LogoutFilter@488b46da, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@c6c58ce, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4e3a6c83, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@77925f76, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61aa6300, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@726a5e6a, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@43e86c0c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15a8bbe5, org.springframework.security.web.session.SessionManagementFilter@1c06f19c, org.springframework.security.web.access.ExceptionTranslationFilter@19855799, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2987b699]
+6557 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+6925 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6951 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6963 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                – No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+6975 [main] INFO  com.example.Pr23.Pr23Application
+                – Started Pr23Application in 6.623 seconds (JVM running for 7.632)
+36454 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+36454 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+36456 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 2 ms
+36662 [http-nio-8080-exec-1] INFO  com.example.Pr23.Aspect
+                – Method loadUserByUsername end work...
+82846 [http-nio-8080-exec-7] INFO  com.example.Pr23.Aspect
+                – Method save end work...
+92141 [http-nio-8080-exec-1] INFO  com.example.Pr23.Aspect
+                – Method loadUserByUsername end work...
+92309 [http-nio-8080-exec-2] INFO  c.example.Pr23.service.BankService
+                – Method getAllBanks has been started...
+92317 [http-nio-8080-exec-2] INFO  com.example.Pr23.Aspect
+                – Method getAllBanks end work...
+98024 [http-nio-8080-exec-4] INFO  c.example.Pr23.service.BankService
+                – Method getAllBanks has been started...
+98026 [http-nio-8080-exec-4] INFO  com.example.Pr23.Aspect
+                – Method getAllBanks end work...
+823  [main] INFO  com.example.Pr23.Pr23Application
+                – Starting Pr23Application using Java 15.0.2 on DESKTOP-K7IN7AN with PID 17220 (C:\Users\killi\IdeaProjects\Pr23\build\classes\java\main started by killi in C:\Users\killi\IdeaProjects\Pr23)
+827  [main] INFO  com.example.Pr23.Pr23Application
+                – No active profile set, falling back to default profiles: default
+1791 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1879 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 76 ms. Found 3 JPA repository interfaces.
+2609 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+2618 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2619 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2619 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.45]
+2769 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2770 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1890 ms
+2961 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3168 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+3226 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+3282 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.30.Final
+3449 [main] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+3612 [main] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+4748 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4760 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4908 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5622 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                – Will secure Ant [pattern='/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17e8caf2, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c6a6ce3, org.springframework.security.web.header.HeaderWriterFilter@563392e5, org.springframework.security.web.authentication.logout.LogoutFilter@78b44fcb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a2a56f6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@705d72f0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@104cf647, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e3a6c83, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b7b0ada, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@5f26cb8b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7488c183, org.springframework.security.web.session.SessionManagementFilter@43efe064, org.springframework.security.web.access.ExceptionTranslationFilter@7e2e0b8a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@178ebac3]
+5766 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+6119 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6145 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6158 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor
+                – No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+6168 [main] INFO  com.example.Pr23.Pr23Application
+                – Started Pr23Application in 5.815 seconds (JVM running for 6.825)
+11326 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+11326 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+11327 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 1 ms
+11419 [http-nio-8080-exec-1] INFO  c.example.Pr23.service.BankService
+                – Method getAllBanks has been started...
+11555 [http-nio-8080-exec-1] INFO  com.example.Pr23.Aspect
+                – Method getAllBanks end work...
+12148 [http-nio-8080-exec-2] INFO  c.example.Pr23.service.BankService
+                – Method getAllBanks has been started...
+12151 [http-nio-8080-exec-2] INFO  com.example.Pr23.Aspect
+                – Method getAllBanks end work...
+12611 [http-nio-8080-exec-3] INFO  c.example.Pr23.service.BankService
+                – Method getAllBanks has been started...
+12613 [http-nio-8080-exec-3] INFO  com.example.Pr23.Aspect
+                – Method getAllBanks end work...
+12827 [http-nio-8080-exec-4] INFO  c.example.Pr23.service.BankService
+                – Method getAllBanks has been started...
+12829 [http-nio-8080-exec-4] INFO  com.example.Pr23.Aspect
+                – Method getAllBanks end work...
+13010 [http-nio-8080-exec-5] INFO  c.example.Pr23.service.BankService
+                – Method getAllBanks has been started...
+13012 [http-nio-8080-exec-5] INFO  com.example.Pr23.Aspect
+                – Method getAllBanks end work...
+13194 [http-nio-8080-exec-6] INFO  c.example.Pr23.service.BankService
+                – Method getAllBanks has been started...
+13196 [http-nio-8080-exec-6] INFO  com.example.Pr23.Aspect
+                – Method getAllBanks end work...
+16411 [http-nio-8080-exec-8] INFO  c.example.Pr23.service.BankService
+                – Method getAllBanks has been started...
+16412 [http-nio-8080-exec-8] INFO  com.example.Pr23.Aspect
+                – Method getAllBanks end work...
+17371 [http-nio-8080-exec-9] INFO  c.example.Pr23.service.BankService
+                – Method getAllBanks has been started...
+17373 [http-nio-8080-exec-9] INFO  com.example.Pr23.Aspect
+                – Method getAllBanks end work...
+17571 [http-nio-8080-exec-10] INFO  c.example.Pr23.service.BankService
+                – Method getAllBanks has been started...
+17573 [http-nio-8080-exec-10] INFO  com.example.Pr23.Aspect
+                – Method getAllBanks end work...
+17742 [http-nio-8080-exec-1] INFO  c.example.Pr23.service.BankService
+                – Method getAllBanks has been started...
+17744 [http-nio-8080-exec-1] INFO  com.example.Pr23.Aspect
+                – Method getAllBanks end work...
